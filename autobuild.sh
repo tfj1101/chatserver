@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-rm -rf 'pwd'/build/*
-cd 'pwd'/build
+rm -rf ${PWD}/build/*
+cd ${PWD}/build
 cmake ..
 make
