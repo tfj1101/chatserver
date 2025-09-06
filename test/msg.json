@@ -1,0 +1,29 @@
+---一对一聊天协议---
+{
+    "msgid": 5,
+    "from": "li si",
+    "id": 2,
+    "to": 1,
+    "msg": "hello zhansan"
+}
+--- 注册协议 ---
+{
+    "msgid": 2,
+    "name": "li si",
+    "password": "123456"
+}
+
+登录协议
+{
+    "msgid": 1,
+    "id": 2,
+    "name": "li si",
+    "password": "123456"
+}
+
+添加好友
+{
+    "msgid": 6,
+    "id": 1,
+    "friendid": 2
+}
